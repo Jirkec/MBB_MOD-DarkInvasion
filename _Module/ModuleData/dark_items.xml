@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!--armor-->
+	<!--LORDS-->
+	<!--k7_lk_4-->
+	<Item id="dark_knight_lord_armor" name="Dark lord armour" mesh="k7_lk_4" culture="Culture.darknight" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" has_gender_variations="true" arm_armor="36" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<!--lan_armor-->
+	<Item id="dark_knight_lord_armor_2" name="Dark lord armour 2" mesh="lan_armor" subtype="body_armor" culture="Culture.darknight" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" arm_armor="36" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<!--kg_armor_nc_v31-->
+	<Item id="dark_knight_ruler_armor" name="Dark Knights Ruler armor" mesh="kg_armor_nc_v31" culture="Culture.darknight" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="100" leg_armor="60" has_gender_variations="true" arm_armor="50" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<!--AR_imperial_lamellar_cape_a2 | open source amr-->
+	<Item id="dark_knight_ruler_cape" name="Dark Knights Ruler cape" mesh="AR_imperial_lamellar_cape_a2" culture="Culture.darknight" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" modifier_group="plate" material_type="Plate" arm_armor="20"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
+	<!--halb-->
+	<!--gond_plt_arm_b2_ld | gondor-->
+	<Item id="dark_knight_halb_armor" name="Dark Knights halb armor" mesh="gond_plt_arm_b2_ld" subtype="body_armor" culture="Culture.darknight" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="55" leg_armor="30" arm_armor="35" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<!--k7_knight_blk_gnl-->
+	<Item id="dark_knight_halb_armor_2" name="Dark Knights halb armor 2" mesh="k7_knight_blk_gnl" culture="Culture.empire" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="55" leg_armor="50" has_gender_variations="true" arm_armor="46" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--light xbow-->
+	<!--cb_merc_com11-->
+	<Item id="dark_knight_lxbow_armor" name="Dark Knights light xbow armor" mesh="cb_merc_com11" culture="Culture.empire" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="10" has_gender_variations="true" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<!--arbalest xbow-->
+	<!--k8_knight_rs-->
+	<Item id="dark_knight_arbalest_armor" name="Dark Knights arbalest armor" mesh="k8_knight_rs" culture="Culture.empire" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="15" has_gender_variations="true" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--knight-->
+	<!--rb_arm_3-->
+	<Item id="dark_knight_armor" name="Dark Knight Armor" mesh="rb_arm_3" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="60" leg_armor="30" arm_armor="30" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+	
+	<!--rob_bar_v4-->
+	<Item id="dark_knight_armor_2" name="Dark Knight Armor 2" mesh="rob_bar_v4" culture="Culture.empire" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="60" leg_armor="30" has_gender_variations="true" arm_armor="30" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--light cav-->
+	<!--north_van29-->
+	<Item id="dark_knight_light_cav_armor" name="Dark Knight light cav Armor" mesh="north_van29" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="55" leg_armor="40" arm_armor="40" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<!--north_van9-->
+	<Item id="dark_knight_light_cav_armor_2" name="Dark Knight light cav Armor 2" mesh="north_van9" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="55" leg_armor="40" arm_armor="40" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<!--paladin-->
+	<!--k7_alt11-->
+	<Item id="dark_knight_paladin_armor" name="Dark Knight paladin Armor" mesh="k7_alt11" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="65" leg_armor="40" arm_armor="40" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+	
+	<!--spear-->
+	<!--gond_tab_9ld | gondor-->
+	<Item id="dark_knight_spear_armor" name="Dark Knight spear Armor" mesh="gond_tab_9ld" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+	
+	<!--jor_arm_new_e-->
+	<Item id="dark_knight_spear_armor_2" name="Dark Knight spear Armor 2" mesh="jor_arm_new_e" subtype="body_armor" culture="Culture.empire" weight="1" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="leather" material_type="Leather"></Armor>
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<!--Sa_brigandine6 | swadian-->
+	<Item id="dark_knight_spear_armor_3" name="Dark Knight spear Armor 3" mesh="Sa_brigandine6" is_merchandise="true" subtype="body_armor" value="20000" culture="Culture.vlandia" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="35" leg_armor="15" arm_armor="15" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--peasant-->
+	<!--TV_vlandia_armor_l | open source-->
+	<Item id="dark_knight_peasant_armor" name="Dark Knight peasant Armor" mesh="TV_vlandia_armor_l" culture="Culture.vlandia" weight="10.3" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<!--mercenary_mail_armor | open source-->
+	<Item id="dark_knight_peasant_armor_2" name="Dark Knight peasant Armor 2" mesh="ap_mercenary_mail_armor" culture="Culture.vlandia" weight="10.3" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" arm_armor="14" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
+	<!--umber_plate_armor8-->
+	<Item id="dark_knight_peasant_armor_3" name="Dark Knight peasant Armor 3" mesh="umber_plate_armor8" culture="Culture.empire" weight="9.4" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="25" leg_armor="12" has_gender_variations="true" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<!--boots-->
+	<Item id="dark_knight_lord_boots" name="Dark Knight lord Boots" mesh="rob_bar_bts" culture="Culture.empire" weight="2.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<Item id="dark_knight_arb_boots" name="Dark Knight arbalest Boots" mesh="k8_boots_rs" culture="Culture.empire" weight="2.5" difficulty="0" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="25" covers_legs="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<Item id="dark_knight_soldier_boots" name="Dark Knight soldier Boots" mesh="mail_chausses_a" culture="Culture.neutral_culture" value="1" is_merchandise="false" weight="2.9" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="13"
+				   covers_legs="true"
+				   modifier_group="chain"
+				   material_type="Chainmail" />
+		</ItemComponent>
+	</Item>
+	
+	<Item id="dark_knight_basic_boots" name="Dark Knight basic Boots" mesh="hmj_eastern_leather_boots" culture="Culture.khuzait" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+	</Item>
+	
+	<!--gloves-->
+	<Item id="dark_knight_basic_gloves" name="Dark Knight basic gloves" mesh="vip_glv_2" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="15" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags Civilian="true"></Flags>
+	</Item>
+
+	<Item id="dark_knight_lord_gloves" name="Dark Knight lord gloves" mesh="rb_gnlt_2" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="25" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<Item id="dark_knight_arb_gloves" name="Dark Knight arbalest gloves" mesh="kg_white_gnl" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="20" covers_hands="true" has_gender_variations="false" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--helm-->
+	<!--l xbow-->
+	<!--open source-->
+	<Item id="dark_knight_lxbow_helm" name="Dark Knight light crossbowman helm" mesh="va_model_helmet_nasal" culture="Culture.aserai" weight="1.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="20" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	
+	<!--open-->
+	<Item id="dark_knight_lxbow_helm_2" name="Dark Knight light crossbowman helm 2" mesh="tv_vlandia_helmet_b2" subtype="head_armor" culture="Culture.vlandia" weight="2.6" difficulty="0" appearance="2.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="20" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	
+	<!--native-->
+	<Item id="dark_knight_lxbow_helm_3" name="Dark Knight light crossbowman helm 3"
+			subtype="head_armor"
+			mesh="vlandia_helmet_h_e"
+			culture="Culture.vlandia"
+			value="1"
+			is_merchandise="false"
+			weight="1.2"
+			difficulty="0"
+			appearance="0.6"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="20"
+				   has_gender_variations="false"
+				   hair_cover_type="type2"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	
+	<!--arbalest-->
+	<!--native-->
+	<Item id="dark_knight_arb_helm" name="Dark Knight arbalest helm"
+        mesh="sturgian_lord_helmet_a"
+        culture="Culture.sturgia"
+        subtype="head_armor"
+        weight="3.6"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="25"
+				   has_gender_variations="false"
+				   hair_cover_type="all"
+				   beard_cover_type="type2"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!--halm-->
+	<Item id="dark_knight_halb_helm" name="Dark Knight halb helm" mesh="kng_grd_hlm_slc_v2" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="35" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--knight-->
+	<Item id="dark_knight_knight_helm" name="Dark Knight knight helm" mesh="rb_hlm_stg_2" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--light cav-->
+	<Item id="dark_knight_lcav_helm" name="Dark Knight light cav helm" mesh="gld_kg_hlx" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--paladain-->
+	<Item id="dark_knight_paladin_helm" name="Dark Knight paladin helm" mesh="k4_ornate_hlm" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="dark_knight_paladin_helm_2" name="Dark Knight paladin helm 2" mesh="swad_full_hlm_3" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--lords-->
+	<Item id="dark_knight_lord_helm" name="Dark knight lord helmet" mesh="drn_lrd_hlm" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="50" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--ruler-->
+	<Item id="dark_knight_ruler_helm" name="Dark knight ruler helmet" mesh="knt_hlm_32" culture="Culture.empire" subtype="head_armor" weight="2.4" difficulty="0" appearance="3.6" Type="headArmor">
+		<ItemComponent>
+			<Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	
+	<!--bolts-->
+	<Item id="bolts_c_large_pack"
+        name="Heavy Bolts large pack"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="bolt_bl_c"
+        holster_mesh="bolt_bl_c_quiver"
+        holster_mesh_with_weapon="bolt_bl_c_quiver"
+        flying_mesh="bolt_bl_flying"
+        culture="Culture.vlandia"
+        weight="0.04"
+        appearance="1"
+        Type="Bolts"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon weapon_class="Bolt"
+					stack_amount="30"
+					thrust_speed="0"
+					thrust_damage="15"
+					thrust_damage_type="Pierce"
+					speed_rating="0"
+					missile_speed="12"
+					weapon_length="37"
+					item_usage=""
+					passby_sound_code="event:/mission/combat/missile/passby"
+					rotation="180, 0, 0"
+					physics_material="missile"
+					sticking_position="0,-0.37,0"
+					sticking_rotation="90,0,0"
+					center_of_mass="0,0,-0.1"
+					modifier_group="bolt">
+				<WeaponFlags AttachAmmoToVisual="true"
+							 Consumable="true"
+							 AmmoSticksWhenShot="true"
+							 AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<Item id="bolts_c_large_pack_better"
+        name="Heavy Bolts large pack"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="bolt_bl_c"
+        holster_mesh="bolt_bl_c_quiver"
+        holster_mesh_with_weapon="bolt_bl_c_quiver"
+        flying_mesh="bolt_bl_flying"
+        culture="Culture.vlandia"
+        weight="0.04"
+        appearance="1"
+        Type="Bolts"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon weapon_class="Bolt"
+					stack_amount="60"
+					thrust_speed="0"
+					thrust_damage="30"
+					thrust_damage_type="Pierce"
+					speed_rating="0"
+					missile_speed="30"
+					weapon_length="37"
+					item_usage=""
+					passby_sound_code="event:/mission/combat/missile/passby"
+					rotation="180, 0, 0"
+					physics_material="missile"
+					sticking_position="0,-0.37,0"
+					sticking_rotation="90,0,0"
+					center_of_mass="0,0,-0.1"
+					modifier_group="bolt">
+				<WeaponFlags AttachAmmoToVisual="true"
+							 Consumable="true"
+							 AmmoSticksWhenShot="true"
+							 AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+
+	<Item id="arbalest_crossbow_better"
+        name="{=0e17RZrZ}Arbalest better"
+        body_name="bo_cross_bow_heavy"
+        mesh="crossbow_c"
+        culture="Culture.neutral_culture"
+        value="1"
+        is_merchandise="false"
+        weight="3.0"
+        difficulty="0"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.24675"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+					ammo_class="Bolt"
+					missile_speed="140"
+					accuracy="100"
+					thrust_damage="300"
+					thrust_speed="100"
+					speed_rating="1000"
+					weapon_length="100"
+					ammo_limit="1"
+					thrust_damage_type="Pierce"
+					item_usage="crossbow"
+					reload_phase_count="2"
+					physics_material="wood_weapon"
+					center_of_mass="0,0,0.4">
+				<WeaponFlags RangedWeapon="true"
+							 HasString="true"
+							 CantReloadOnHorseback="false"
+							 NotUsableWithOneHand="true"
+							 TwoHandIdleOnMount="false" />
+			</Weapon>
+		</ItemComponent>
+	</Item>
+
+	<!--knights weapon--><!--
+	<CraftedItem id="dark_knight_axe"
+               name="Dark big axe"
+               crafting_template="TwoHandedAxe"
+               culture="Culture.battania"
+               modifier_group="axe">
+		<Pieces>
+			<Piece id="dark_knight_axe_head"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="ba2_pml"
+					Type="Pommel"
+					scale_factor="93" />
+			<Piece id="ba2_hndl"
+				   Type="Handle"
+				   scale_factor="102" />
+		</Pieces>
+	</CraftedItem>
+	
+	<CraftedItem id="dark_knight_hammer"
+               name="Dark big Hammer"
+               crafting_template="TwoHandedAxe"
+               culture="Culture.battania"
+               modifier_group="axe">
+		<Pieces>
+			<Piece id="dark_knight_hammer_head"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="gen_hndl_2"
+				   Type="Handle"
+				   scale_factor="104" />
+		</Pieces>
+	</CraftedItem>-->
+
+</Items>

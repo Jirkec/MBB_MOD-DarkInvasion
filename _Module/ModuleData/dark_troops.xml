@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="darknight_peasant"
+                default_group="Infantry"
+                level="11"
+                name="Dark peasant"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.darknight_light_crossbowman" />
+      <upgrade_target id="NPCCharacter.darknight_spearman" />
+      <upgrade_target id="NPCCharacter.darknight_light_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.imperial_spear_t2" />
+		<equipment slot="Item2"
+					 id="Item.leather_bound_kite_shield" />
+        <equipment slot="Body"
+                   id="Item.dark_knight_peasant_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_basic_boots" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.imperial_spear_t2" />
+		<equipment slot="Item2"
+					 id="Item.leather_bound_kite_shield" />
+        <equipment slot="Body"
+                   id="Item.dark_knight_peasant_armor_2" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_basic_boots" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.imperial_spear_t2" />
+        <equipment slot="Item2"
+                   id="Item.leather_bound_kite_shield" />
+        <equipment slot="Body"
+                   id="Item.dark_knight_peasant_armor_3" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_basic_boots" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <NPCCharacter id="darknight_light_crossbowman"
+                default_group="Ranged"
+                level="20"
+                name="Dark light crossbowman"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="120" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="200" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.darknight_arbalest" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bolts_c_large_pack" />
+        <equipment slot="Item1"
+                   id="Item.crossbow_b" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_3_t4" />
+		  <equipment slot="Item3"
+					 id="Item.bolts_c_large_pack" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> <!--123-->
+        <equipment slot="Body"
+                   id="Item.dark_knight_lxbow_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+		  <equipment slot="Gloves"
+					 id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bolts_c_large_pack" />
+        <equipment slot="Item1"
+                   id="Item.crossbow_b" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_3_t4" />
+		  <equipment slot="Item3"
+					 id="Item.bolts_c_large_pack" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm_2" /> <!--123-->
+        <equipment slot="Body"
+                   id="Item.dark_knight_lxbow_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+		  <equipment slot="Gloves"
+					 id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bolts_c_large_pack" />
+        <equipment slot="Item1"
+                   id="Item.crossbow_b" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_3_t4" />
+		  <equipment slot="Item3"
+					 id="Item.bolts_c_large_pack" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm_3" /> <!--123-->
+        <equipment slot="Body"
+                   id="Item.dark_knight_lxbow_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+		  <equipment slot="Gloves"
+					 id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <NPCCharacter id="darknight_arbalest"
+                default_group="Ranged"
+                level="35"
+                name="Dark arbalest"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="220" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="300" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bolts_c_large_pack" />
+        <equipment slot="Item1"
+                   id="Item.crossbow_f" />
+        <equipment slot="Item2"
+                   id="Item.empire_noble_sword_2_t5" />
+		  <equipment slot="Item3"
+					 id="Item.bolts_c_large_pack" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_arb_helm" />
+        <equipment slot="Body"
+                   id="Item.dark_knight_arbalest_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_arb_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_arb_gloves" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <NPCCharacter id="darknight_spearman"
+                default_group="Infantry"
+                level="20"
+                name="Dark spearman"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="200" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="170" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="170" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+	  <upgrade_targets>
+		  <upgrade_target id="NPCCharacter.darknight_halb" />
+		  <upgrade_target id="NPCCharacter.darknight_knight" />
+	  </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+		  <equipment slot="Item0"
+					 id="Item.western_spear_2_t2" />
+		  <equipment slot="Item1"
+					 id="Item.leather_bound_kite_shield" />
+		  <equipment slot="Item2"
+					 id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_spear_armor" /><!--123-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+		  <equipment slot="Item0"
+					 id="Item.western_spear_2_t2" />
+		  <equipment slot="Item1"
+					 id="Item.leather_bound_kite_shield" />
+		  <equipment slot="Item2"
+					 id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_spear_armor_2" /><!--123-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+		  <equipment slot="Item0"
+					 id="Item.western_spear_2_t2" />
+		  <equipment slot="Item1"
+					 id="Item.leather_bound_kite_shield" />
+		  <equipment slot="Item2"
+					 id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_lxbow_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_spear_armor_3" /><!--123-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <NPCCharacter id="darknight_halb"
+                default_group="Infantry"
+                level="30"
+                name="Dark halbadier"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="300" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="300" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="300" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.hbkg_swd" />
+        <equipment slot="Item1"
+                   id="Item.khuzait_polearm_2_t5" />
+        <equipment slot="Item2"
+                   id="Item.gond_shld2_lrg" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_halb_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_halb_armor" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.hbkg_swd" />
+        <equipment slot="Item1"
+                   id="Item.khuzait_polearm_2_t5" />
+        <equipment slot="Item2"
+                   id="Item.gond_shld2_lrg" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_halb_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_halb_armor_2" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_basic_gloves" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+  <NPCCharacter id="darknight_knight"
+                default_group="Infantry"
+                level="30"
+                name="Dark knight"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="300" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="300" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bear_axe_2" /> 
+        <equipment slot="Head"
+                   id="Item.dark_knight_knight_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_armor" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.bar_hammer2" />
+        <equipment slot="Head"
+                   id="Item.dark_knight_knight_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_armor_2" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+	
+  <NPCCharacter id="darknight_light_cavalry"
+                default_group="Cavalry"
+                level="30"
+                name="Dark light cavalry"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="200" />
+      <skill id="Riding"
+             value="170" />
+      <skill id="OneHanded"
+             value="170" />
+      <skill id="TwoHanded"
+             value="170" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+	  <upgrade_targets>
+		  <upgrade_target id="NPCCharacter.darknight_paladin" />
+	  </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_5_t5" /> 
+        <equipment slot="Item1"
+                   id="Item.empire_lance_2_t4" /> 
+        <equipment slot="Item2"
+                   id="Item.gond_shld" /> 
+        <equipment slot="Head"
+                   id="Item.dark_knight_lcav_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_light_cav_armor" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.northern_ring_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_5_t5" /> 
+        <equipment slot="Item1"
+                   id="Item.empire_lance_2_t4" /> 
+        <equipment slot="Item2"
+                   id="Item.gond_shld" /> 
+        <equipment slot="Head"
+                   id="Item.dark_knight_lcav_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_light_cav_armor_2" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.half_mail_and_plate_barding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.battania_sword_5_t5" /> 
+        <equipment slot="Item1"
+                   id="Item.empire_lance_2_t4" /> 
+        <equipment slot="Item2"
+                   id="Item.gond_shld" /> 
+        <equipment slot="Head"
+                   id="Item.dark_knight_lcav_helm" /> 
+        <equipment slot="Body"
+                   id="Item.dark_knight_light_cav_armor" /> <!--12-->
+        <equipment slot="Leg"
+                   id="Item.dark_knight_soldier_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+        <equipment slot="Horse"
+                   id="Item.aserai_horse" />
+        <equipment slot="HorseHarness"
+                   id="Item.steppe_half_barding" />
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+	
+  <NPCCharacter id="darknight_paladin"
+                default_group="Cavalry"
+                level="30"
+                name="Dark paladin"
+                occupation="Soldier"
+                culture="Culture.darknight">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="250" />
+      <skill id="Riding"
+             value="300" />
+      <skill id="OneHanded"
+             value="240" />
+      <skill id="TwoHanded"
+             value="240" />
+      <skill id="Polearm"
+             value="240" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+		  <equipment slot="Item0"
+					 id="Item.empire_lance_2_t4" />
+		  <equipment slot="Item1"
+					 id="Item.hb_shld_5" />
+		  <equipment slot="Item2"
+					 id="Item.hbkg_swd" />
+		  <equipment slot="Head"
+                   id="Item.dark_knight_paladin_helm" /> <!--12-->
+        <equipment slot="Body"
+                   id="Item.dark_knight_paladin_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+        <equipment slot="Horse"
+                   id="Item.noble_horse_southern" />
+        <equipment slot="HorseHarness"
+                   id="Item.halfchain_barding" />   <!--123-->
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_lance_2_t4" /> 
+        <equipment slot="Item1"
+                   id="Item.hb_shld_5" /> 
+        <equipment slot="Item2"
+                   id="Item.hbkg_swd" /> 
+        <equipment slot="Head"
+                   id="Item.dark_knight_paladin_helm_2" /> <!--12-->
+        <equipment slot="Body"
+                   id="Item.dark_knight_paladin_armor" />
+        <equipment slot="Leg"
+                   id="Item.dark_knight_lord_boots" />
+        <equipment slot="Gloves"
+                   id="Item.dark_knight_lord_gloves" />
+        <equipment slot="Horse"
+                   id="Item.noble_horse_southern" />
+        <equipment slot="HorseHarness"
+                   id="Item.chain_barding" />   <!--123-->
+      </EquipmentRoster>
+		
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+	
+	
+	
+</NPCCharacters>
